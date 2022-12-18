@@ -18,7 +18,7 @@ from faker_credit_score import CreditScore
 
 
 path_tcust_csv = "/tmp/dataset.csv"
-email_failed = "mbiombanistefen@gmail.com"
+email_failed = ""
 
 dag = DAG(
     dag_id="elt",
