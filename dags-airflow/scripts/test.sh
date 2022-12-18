@@ -1,0 +1,1 @@
+echo ": " $execution_date

@@ -1,0 +1,11 @@
+emails
+pandas
+ipykernel
+pymysql
+psycopg2-binary
+SQLAlchemy
+psycopg2
+DateTime
+
+
+
