@@ -18,7 +18,7 @@ from faker_credit_score import CreditScore
 
 
 path_tcust_csv = "/tmp/dataset.csv"
-email_failed = ""
+email_failed = "your_email@gmail.com"
 
 dag = DAG(
     dag_id="elt",
@@ -256,7 +256,7 @@ email_task = EmailOperator(
     task_id="Notify",
     email_on_failure=True,
     email=email_failed, 
-    to='',
+    to='your_email@gmail.com',
     subject='Pipeline Finished',
     html_content='<p> The Pipeline for updating data between OLTP and OLAP environments has been successfully completed.<p>',
     dag=dag)
