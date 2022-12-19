@@ -93,6 +93,28 @@ Now you can access Airflow web interface by going to http://localhost:8080 with 
 
 ![alt text](/images/airflow_login.png)
 
+## oltp Interface
+
+Now you can access adminer web interface by going to http://localhost:8085 with the default user which is in the docker-compose.yml:
+    
+    Système     MySQL
+    Serveur     oltp
+    user        root
+    password    myrootpassword     
+    Database    testdb
+
+
+## olap Interface
+
+Now you can access new adminer web interface by going to http://localhost:8085 with the default user which is in the docker-compose.yml:
+
+    Système     PostgesSQL
+    Serveur     olap
+    user        postgres
+    password    Sup3rS3c3t     
+    Database    postgres 
+
+
 ## Shut down or restart Airflow
 
 If you need to make changes or shut down:
