@@ -87,11 +87,6 @@ When everything is done, you can check all the containers running:
 
     $ docker ps
 
-## Airflow Interface
-
-Now you can access Airflow web interface by going to http://localhost:8080 with the default user which is in the docker-compose.yml. **Username/Password: airflow/airflowpassword**:
-
-![alt text](/images/airflow_login.png)
 
 ## oltp Interface
 
@@ -113,6 +108,12 @@ Now you can access new adminer web interface by going to http://localhost:8085 w
     user        postgres
     password    Sup3rS3c3t     
     Database    postgres 
+
+## Airflow Interface
+
+Now you can access Airflow web interface and run etl dag by going to http://localhost:8080 with the default user which is in the docker-compose.yml. **Username/Password: airflow/airflowpassword**:
+
+![alt text](/images/airflow_login.png)    
 
 
 ## Shut down or restart Airflow
