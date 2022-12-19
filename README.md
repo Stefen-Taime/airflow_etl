@@ -111,9 +111,15 @@ Now you can access new adminer web interface by going to http://localhost:8085 w
 
 ## Airflow Interface
 
-Now you can access Airflow web interface and run etl dag by going to http://localhost:8080 with the default user which is in the docker-compose.yml. **Username/Password: airflow/airflowpassword**:
+Now you can access Airflow web interface  by going to http://localhost:8080 with the default user which is in the docker-compose.yml. **Username/Password: airflow/airflowpassword**:
 
-![alt text](/images/airflow_login.png)    
+![alt text](/images/airflow_login.png) 
+
+## Airflow DAG
+
+Now you can run Airflow etl dag:
+
+![alt text](/images/dag.png)    
 
 
 ## Shut down or restart Airflow
