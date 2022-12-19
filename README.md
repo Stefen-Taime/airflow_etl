@@ -20,6 +20,12 @@ Faker is used as a package to generate data to a mysql database. The data is ext
 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/)
+- [Mailtrap Account](https://mailtrap.io/)
+
+## Setup mailtrap
+One platform toTest, Send, Control your emails:
+
+![alt text](/images/mailtrap.png)
 
 
 ## Setup
