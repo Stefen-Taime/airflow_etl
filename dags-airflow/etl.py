@@ -31,7 +31,7 @@ username = "root"
 password = "myrootpassword"
 host = "oltp"
 port = "3306"
-database = "testdb"
+database = "oltp"
 
 try:
     conn = pymysql.connect(host=host, user=username, passwd=password, db=database, connect_timeout=5)
@@ -157,7 +157,7 @@ def _populate_mysql():
 
 def _extract():
     #connecting to the oltp database.
-    engine_mysql_oltp = sqlalchemy.create_engine('mysql+pymysql://root:myrootpassword@oltp:3306/testdb')
+    engine_mysql_oltp = sqlalchemy.create_engine('mysql+pymysql://root:myrootpassword@oltp:3306/oltp')
     
     #selecting the data.
     dataset_df = pd.read_sql_query(r"""
@@ -202,7 +202,7 @@ def _transform():
 
 def _load():
     #connecting to the postgresql database
-    engine_postgresql_olap = sqlalchemy.create_engine('postgresql+psycopg2://postgres:Sup3rS3c3t@olap:5432/testdb')
+    engine_postgresql_olap = sqlalchemy.create_engine('postgresql+psycopg2://postgres:Sup3rS3c3t@olap:5432/olap')
     
     #selecting the data
     #reading the data from the csv files.

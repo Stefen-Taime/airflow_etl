@@ -30,6 +30,8 @@ services:
       timeout: 5s
       retries: 5
     volumes:
+      - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./postgres/data:/var/lib/mysql 
       - ./scripts:/scripts
     networks:
       - docker-stack
