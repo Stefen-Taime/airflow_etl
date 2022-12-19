@@ -6,6 +6,3 @@ psycopg2-binary
 SQLAlchemy
 psycopg2
 DateTime
-
-
-
