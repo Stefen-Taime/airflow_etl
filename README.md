@@ -127,7 +127,11 @@ Now you can run Airflow etl dag:
 :)
 
 ![alt text](/images/oltp.png) 
-![alt text](/images/olap.png) 
+![alt text](/images/olap.png)
+
+## Check your mailtrap.io/inboxes
+
+![alt text](/images/mail.png) 
 
 
 ## Shut down or restart Airflow
@@ -139,6 +143,6 @@ If you need to make changes or shut down:
 ## References 
 
 - [Apache Airflow Documentation](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html)
-- [Spark by examples](https://sparkbyexamples.com/pyspark-tutorial/)
-- [Spark s3 integration](https://spark.apache.org/docs/latest/cloud-integration.html)
-- [Airflow and Spark with Docker](https://medium.com/data-arena/building-a-spark-and-airflow-development-environment-with-docker-f0b9b625edd8)
+- [The following documentation mailtrap](https://api-docs.mailtrap.io/)
+- [Faker](https://faker.readthedocs.io/en/master/)
+- [Medium Article](https://medium.com/data-arena/building-a-spark-and-airflow-development-environment-with-docker-f0b9b625edd8)
