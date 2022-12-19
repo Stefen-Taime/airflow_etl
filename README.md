@@ -146,4 +146,4 @@ If you need to make changes or shut down:
 - [Apache Airflow Documentation](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html)
 - [The following documentation mailtrap](https://api-docs.mailtrap.io/)
 - [Faker](https://faker.readthedocs.io/en/master/)
-- [Medium Article](https://medium.com/data-arena/building-a-spark-and-airflow-development-environment-with-docker-f0b9b625edd8)
+- [Medium Article](https://medium.com/@stefentaime_10958/elt-airflow-pipeline-project-dcf834c1be17)
