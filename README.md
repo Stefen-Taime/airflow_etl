@@ -74,6 +74,10 @@ grant permissions to the bash script:
 
     chmod a+x build_Services.sh
 
+Bash:
+
+    $ ./build_Services.sh  
+
 Build Docker:
 
     $ docker-compose up --build -d
