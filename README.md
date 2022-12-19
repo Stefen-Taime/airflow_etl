@@ -122,6 +122,14 @@ Now you can run Airflow etl dag:
 ![alt text](/images/dag.png)    
 
 
+## Check oltp and olap database
+
+:)
+
+![alt text](/images/oltp.png) 
+![alt text](/images/olap.png) 
+
+
 ## Shut down or restart Airflow
 
 If you need to make changes or shut down:
