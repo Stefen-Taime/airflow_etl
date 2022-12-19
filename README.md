@@ -28,7 +28,9 @@ Clone the project to your desired location:
 
     $ git clone https://github.com/Stefen-Taime/airflow_etl.git
 
-fill the .envExample file:
+fill the AIRFLOW__SMTP__SMTP_USER=xxxxxxxxxxx
+AIRFLOW__SMTP__SMTP_PASSWORD=xxxxxxx
+AIRFLOW__SMTP__SMTP_MAIL_FROM=your_email@gmail.com in .envExample file:
 
     AIRFLOW_ADMIN_MAIL=airflow
     AIRFLOW_ADMIN_FIRSTNAME=airflow
