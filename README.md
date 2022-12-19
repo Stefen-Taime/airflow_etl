@@ -127,6 +127,7 @@ Now you can run Airflow etl dag:
 :)
 
 ![alt text](/images/oltp.png) 
+
 ![alt text](/images/olap.png)
 
 ## Check your mailtrap.io/inboxes
